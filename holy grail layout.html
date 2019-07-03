@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .container{
+        display:felx;
+        felx-direction:column;
+      }
+      header{
+        border-bottom:3px solid grey;
+        padding-left:20px;
+      }
+      footer{
+        border-top:1px solid gray;
+        padding:20px;
+        text-align: center;
+      }
+      .content{
+        display:flex;
+      }
+      .content nav{
+        border-right:2px solid gray;
+      }
+      .content aside{
+        border-left:2px solid gray;
+      }
+      nav, aside{
+        flex-basis: 150px;
+        felx-shrink: 0;
+      }
+      main{
+        padding:15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Hallo!</h1>
+      </header>
+      <section class="content">
+        <nav>
+          <ul>
+            <li>Markus</li>
+            <li>Peter</li>
+            <li>Weinmann</li>
+          </ul>
+        </nav>
+        <main>
+          ich bin Markus und du bist sehr schoen.
+          <br>ich moechte eine rice essen.<br>
+          mein englisch ist besser als deutsch.
+        </main>
+        <aside>
+          AD
+        </aside>
+      </section>
+      <footer>
+        <a href="https://www.naver.com">네이버</a>
+      </footer>
+    </div>
+  </body>
+</html>
